@@ -120,7 +120,7 @@ $('#stop9').click(function(e) {
                 e.preventDefault();
                 sound.stop();
               });
-          })
+          });
 
 
       $(document).ready(function() {   SC.stream("/tracks/243847216",function(sound){
@@ -132,9 +132,7 @@ $('#stop9').click(function(e) {
                  e.preventDefault();
                  sound.stop();
                });
-           })
-
-
+           });
 
 
 
@@ -147,5 +145,4 @@ $('#stop9').click(function(e) {
               e.preventDefault();
               sound.stop();
             });
-        })
-           });
+        });
