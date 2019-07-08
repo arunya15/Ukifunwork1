@@ -1,13 +1,42 @@
 <html>
 <head>
 
+    <title>songs online</title>
+    <link rel="icon" href="iconfinder_folder_music_18340.png" >
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+  <script src="mainz.js"></script>
 <!--<script src="main.js"></script>
 <script src="//connect.soundcloud.com/sdk.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
 
+  <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500">
+      <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/magnific-popup.css">
+      <link rel="stylesheet" href="css/jquery-ui.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+      <link rel="stylesheet" href="css/mediaelementplayer.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+      <link rel="stylesheet" href="css/fl-bigmug-line.css">
+
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>-->
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="//connect.soundcloud.com/sdk.js"></script>
 <script src="mainz.js"></script>
 
@@ -29,7 +58,7 @@
       <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
       <link rel="stylesheet" href="css/fl-bigmug-line.css">
 
-
+-->
 <style>
 
 .smallpart{
@@ -80,13 +109,13 @@ button{
 
   <div style="display:inline-flex; padding:50px 50px 50px 50px;" >
 
-  <div> <img src="wow.jpg" alt="" width="250px" height="350px"> <p>  <FONT SIZE="5">Kanne kanne unna  </FONT></p> </a> <button type="button"  id="start1">start</button>  <button type="button"  id="stop1">stop</button> </div>
+  <div> <img src="wow.jpg" alt="" width="250px" height="350px"> <p>  <FONT SIZE="5">Kanne kanne unna  </FONT></p> </a> <button type="button"  id="start5">start</button>  <button type="button"  id="stop5">stop</button> </div>
   &nbsp &nbsp &nbsp
-  <div> <img src="6.jpeg"  alt="" width="250px" height="350px"> <p><FONT SIZE="5"> yenni matrum kathal </FONT> </p> </a> <button type="button"  id="start1">start</button>  <button type="button"  id="stop1">stop</button> </div>
+  <div> <img src="6.jpeg"  alt="" width="250px" height="350px"> <p><FONT SIZE="5"> yenni matrum kathal </FONT> </p> </a> <button type="button"  id="start6">start</button>  <button type="button"  id="stop6">stop</button> </div>
   &nbsp &nbsp &nbsp
-  <div> <img src="7.jpg" alt="" width="250px" height="350px"> <p> <FONT SIZE="5">Neeum nannum  </FONT></p> </a> <button type="button"  id="start1">start</button>  <button type="button"  id="stop1">stop</button> </div>
+  <div> <img src="7.jpg" alt="" width="250px" height="350px"> <p> <FONT SIZE="5">Neeum nannum  </FONT></p> </a> <button type="button"  id="start7">start</button>  <button type="button"  id="stop7">stop</button> </div>
   &nbsp &nbsp &nbsp
-  <div> <img src="omg.jpg" alt="" width="250px" height="350px"> <p> <FONT SIZE="5">Omg Ponnu </FONT></p> </a> <button type="button"  id="start1">start</button>  <button type="button"  id="stop1">stop</button> </div>
+  <div> <img src="omg.jpg" alt="" width="250px" height="350px"> <p> <FONT SIZE="5">Omg Ponnu </FONT></p> </a> <button type="button"  id="start8">start</button>  <button type="button"  id="stop8">stop</button> </div>
   &nbsp &nbsp &nbsp
   </div>
 
@@ -94,15 +123,15 @@ button{
 
   <div style="display:inline-flex; padding:50px 50px 50px 50px;" >
 
-  <div> <img src="5.jpeg" alt="" width="250px" height="350px"> <p><FONT SIZE="5"> Sakaa </FONT></p> </a> <button type="button"  id="start1">start</button>  <button type="button"  id="stop1">stop</button> </div>
+  <div> <img src="5.jpeg" alt="" width="250px" height="350px"> <p><FONT SIZE="5"> Sakaa </FONT></p> </a> <button type="button"  id="start9">start</button>  <button type="button"  id="stop9">stop</button> </div>
 
   &nbsp &nbsp &nbsp
-  <div> <img src="11.jpg"  alt="" width="250px" height="350px"> <p><FONT SIZE="5"> KGF </FONT></p> </a> <button type="button"  id="start1">start</button>  <button type="button"  id="stop1">stop</button> </div>
+  <div> <img src="11.jpg"  alt="" width="250px" height="350px"> <p><FONT SIZE="5"> KGF </FONT></p> </a> <button type="button"  id="start10">start</button>  <button type="button"  id="stop10">stop</button> </div>
 
   &nbsp &nbsp &nbsp
-  <div> <img src="AR.jpg" alt="" width="250px" height="350px"> <p> <FONT SIZE="5">Marvel </FONT> </p> </a> <button type="button"  id="start1">start</button>  <button type="button"  id="stop1">stop</button> </div>
+  <div> <img src="AR.jpg" alt="" width="250px" height="350px"> <p> <FONT SIZE="5">Marvel </FONT> </p> </a> <button type="button"  id="start11">start</button>  <button type="button"  id="stop11">stop</button> </div>
   &nbsp &nbsp &nbsp
-  <div> <img src="l.JPG" alt="" width="250px" height="350px"> <p> <FONT SIZE="5"> Maru varthai </FONT></p> </a> <button type="button"  id="start1">start</button>  <button type="button"  id="stop1">stop</button> </div>
+  <div> <img src="l.JPG" alt="" width="250px" height="350px"> <p> <FONT SIZE="5"> Maru varthai </FONT></p> </a> <button type="button"  id="start12">start</button>  <button type="button"  id="stop12">stop</button> </div>
   &nbsp &nbsp &nbsp
   </div>
 </div>

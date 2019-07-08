@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 
 
-       $("#start").click(function(e) {
+       $("#start1").click(function(e) {
 
               e.preventDefault();
 
@@ -22,7 +22,7 @@ $(document).ready(function() {
 
 
 
-              $("#stop").click(function(e) {
+              $("#stop1").click(function(e) {
 
                  e.preventDefault();
 
@@ -42,7 +42,7 @@ SC.stream('/tracks/621668781',function(sound){
 
 
 
-     $("#start1").click(function(e) {
+     $("#start2").click(function(e) {
 
             e.preventDefault();
 
@@ -54,7 +54,7 @@ SC.stream('/tracks/621668781',function(sound){
 
 
 
-            $("#stop1").click(function(e) {
+            $("#stop2").click(function(e) {
 
                e.preventDefault();
 
